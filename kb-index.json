@@ -103,10 +103,28 @@
       "ingestion_priority": 16
     },
     {
+      "path": "15-cheat-sheet.md",
+      "title": "Cheat Sheet",
+      "purpose": "One-page quick reference for agents before weekly check-ins",
+      "ingestion_priority": 18
+    },
+    {
+      "path": "16-emotional-cycle.md",
+      "title": "Emotional Cycle",
+      "purpose": "The 5 emotional zones and agent playbook per zone",
+      "ingestion_priority": 19
+    },
+    {
+      "path": "17-state-management.md",
+      "title": "Agent State Management",
+      "purpose": "Required JSON state structure and update rules for multi-week coaching",
+      "ingestion_priority": 20
+    },
+    {
       "path": "agent-prompts.md",
       "title": "Agent Prompts",
       "purpose": "Copy-pasteable system prompts and weekly check-in scripts",
-      "ingestion_priority": 17
+      "ingestion_priority": 21
     },
     {
       "path": "templates/12-week-plan-template.md",

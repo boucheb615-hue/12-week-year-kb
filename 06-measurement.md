@@ -38,10 +38,11 @@ Execution Score = (Number of tactics completed / Number of tactics planned) × 1
 |-------------|----------------|--------------|
 | 90–100% | World-class execution | Maintain; do not add scope |
 | 80–89% | High performance | Fine-tune one tactic |
-| 65–79% | Needs attention | Diagnose root obstacle |
-| < 65% | Critical | Emergency protocol: reduce goals or tactics |
+| **65–79%** | Needs attention | Diagnose root obstacle |
+| **50–65%** | Warning | Reduce scope to 1 goal + 1 tactic; switch to daily check-ins |
+| **< 50%** | Critical | Emergency protocol: drop to survival mode |
 
-## Monthly/Quarterly Score
+## Monthly / 6-Week / 12-Week Score
 
 At the end of 12 weeks, calculate the **cycle execution score**:
 

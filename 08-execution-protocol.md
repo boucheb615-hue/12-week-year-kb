@@ -30,7 +30,8 @@ Run this every week at the user's chosen check-in time.
 - **If 90–100%:** "Excellent. Maintain. Do NOT add more goals. The biggest risk right now is expanding scope."
 - **If 80–89%:** "Strong. What was the one missed tactic? Why? Let's troubleshoot for next week."
 - **If 65–79%:** "Warning. You're drifting. What is the single biggest obstacle?"
-- **If < 65%:** "Critical. We're going to emergency protocol: drop one tactic or one goal. Protecting the system is better than breaking it."
+- **If 50–65%:** "Critical warning. We need to reduce to 1 goal and 1 tactic, and switch to daily check-ins."
+- **If < 50%:** "Emergency protocol activated. We drop everything except one survival tactic."
 
 ### 4. Recommit
 "State your commitment for this week out loud."
