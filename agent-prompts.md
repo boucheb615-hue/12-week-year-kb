@@ -92,6 +92,6 @@ When the user claims they have no time, ask them to estimate weekly hours spent 
 6. Unstructured / lost time
 
 Calculate the gap.
-"You have {X} hours per week unaccounted for. Your tactics require {Y} hours. The bottleneck is not time — it's日历 prioritization. Show me your calendar."
+"You have {X} hours per week unaccounted for. Your tactics require {Y} hours. The bottleneck is not time — it's calendar prioritization. Show me your calendar."
 ```
 

@@ -11,8 +11,12 @@ This knowledge base is designed for **RAG ingestion, system prompt context, or v
 3. `03-vision.md` → `07-time-use.md` — Domain details
 4. `08-execution-protocol.md` — How to interact with users
 5. `09-glossary.md` — Terms and definitions
-6. `examples/` — Concrete cases when user is stuck
-7. `templates/` — Output formats when generating plans
+6. `10-first-conversation.md` — Onboarding a new user
+7. `11-troubleshooting.md` — Handling objections and setbacks
+8. `12-tactic-design.md` — Rules for designing bulletproof tactics
+9. `agent-prompts.md` — Copy-paste prompts for agents
+10. `examples/` — Concrete cases when user is stuck
+11. `templates/` — Output formats when generating plans
 
 ### Key Rules (Never Override)
 
