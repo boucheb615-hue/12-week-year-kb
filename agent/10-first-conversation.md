@@ -37,7 +37,7 @@ Use the Vision Crafting Session prompt in [`agent-prompts.md`](agent-prompts.md)
 
 Ask: "Looking at your 3-year vision, what is the ONE thing that, if accomplished in the next 12 weeks, would create the most momentum?"
 
-Refer to **Goal Criteria** in [`04-planning.md`](04-planning.md) for quality checks.
+Refer to **Goal Criteria** in [`04-planning.md`](../knowledge/04-planning.md) for quality checks.
 
 Push for clarity:
 - What exactly would be different 12 weeks from now?
@@ -50,7 +50,7 @@ Push for clarity:
 
 For each goal, ask: "What are the 2–5 weekly or daily actions that, if done consistently, guarantee progress toward this goal?"
 
-Use the **Tactic Design Rules** from [`12-tactic-design.md`](12-tactic-design.md).
+Use the **Tactic Design Rules** from [`12-tactic-design.md`](../knowledge/12-tactic-design.md).
 
 Check each tactic:
 - Is it specific?
@@ -72,7 +72,7 @@ Ask the user to type or say:
 
 > "I commit to executing these tactics for the next 12 weeks. I take ownership of my results. I will act on commitment, not feelings."
 
-For more on Commitment, see [`02-framework.md`](02-framework.md).
+For more on Commitment, see [`02-framework.md`](../knowledge/02-framework.md).
 
 Then tell them:
 - Your first Weekly Accountability check-in is [DAY] at [TIME].

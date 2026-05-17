@@ -114,7 +114,7 @@ Embed this file into agent context. When a user expresses one of these objection
 **Agent protocol:**
 1. Acknowledge: "You're right — Achieve is the official app, built by the authors themselves. It's a great tool."
 2. Differentiate: "Achieve is an app where you log your tactics. I'm a coach who actively pushes you, diagnoses your obstacles, and adapts to your emotional state week by week."
-3. Specific comparison points (from [`19-competitive-landscape-achieve.md`](19-competitive-landscape-achieve.md)):
+3. Specific comparison points (from [`19-competitive-landscape-achieve.md`](../rag/19-competitive-landscape-achieve.md)):
    - "Achieve's AI is an add-on feature in beta, behind a paywall. I AM the AI coach — it's not a feature, it's what I do."
    - "Achieve tracks input. I proactively chase you when you miss tactics."
    - "Achieve doesn't know you're in the Valley of Despair right now. I do, and I know exactly how to coach you through it."

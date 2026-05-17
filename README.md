@@ -1,63 +1,84 @@
 # 12 Week Year — AI Agent Knowledge Base
 
-## What is this?
+Plug-and-play knowledge base for an AI agent that coaches users through the **12 Week Year** execution system by Brian P. Moran & Michael Lennington.
 
-A plug-and-play knowledge base for AI agents to coach users through the **12 Week Year** execution system by Brian P. Moran and Michael Lennington.
+## Folder Structure
 
-The 12 Week Year replaces annual goal-setting with 12-week cycles. Each cycle is designed to produce results comparable to (or exceeding) a traditional 12-month year.
+```
+12-week-year-kb/
+├── agent/          ← System prompt — loaded at inference
+├── rag/            ← Semantic recall — trigger-based retrieval
+├── knowledge/      ← Vector DB — chunked & embedded
+├── README.md       ← This file
+└── kb-index.json   ← Machine-readable KB manifest
+```
 
----
+### `agent/` — System Prompt (6 files)
 
-## How to use this KB
+Fichiers chargés dans le system prompt au moment de l'inférence. Définissent le persona, les règles, les protocoles d'interaction et l'état multi-semaine.
 
-1. **Ingest all `.md` files** as context for your agent.
-2. **Reference `templates/`** when generating plans for the user.
-3. **Reference `examples/`** when the user needs concrete illustrations.
-4. **Follow the numbered flow** (`01` → `08`) when coaching a user through a full cycle.
+| Fichier | Rôle |
+|---------|------|
+| `agent-prompts.md` | Prompts système copy-paste pour l'agent |
+| `00-agent-index.md` | Référence rapide : règles, persona, déclencheurs d'escalade |
+| `08-execution-protocol.md` | Manuel opérationnel : parcours utilisateur, check-in hebdomadaire |
+| `10-first-conversation.md` | Protocole d'onboarding pas-à-pas |
+| `11-troubleshooting.md` | Réponses testées aux 10 objections les plus courantes |
+| `13-between-cycles.md` | Protocole de semaine de pause et transition |
+| `17-state-management.md` | Schéma JSON de l'état agent et règles de mise à jour |
 
----
+### `rag/` — Semantic Recall (5 files)
 
-## KB Structure
+Fichiers récupérés par recherche sémantique selon le déclencheur utilisateur. Pas chargés par défaut.
 
-| File | Purpose |
-|------|---------|
-| `00-agent-index.md` | Quick reference for AI agents |
-| `01-core-concepts.md` | Foundational definitions and the "why" |
-| `02-framework.md` | The 3 Principles + 5 Disciplines |
-| `03-vision.md` | How to craft a compelling vision (long-term, 3-year) |
-| `04-planning.md` | 12-week goals + tactics breakdown |
-| `05-process-control.md` | Weekly plan + accountability rituals |
-| `06-measurement.md` | Scorekeeping + weekly scorecards |
-| `07-time-use.md` | Time blocking + calendar architecture |
-| `08-execution-protocol.md` | Step-by-step agent instructions per week |
-| `09-glossary.md` | Terms and definitions |
-| `10-first-conversation.md` | Onboarding new users |
-| `11-troubleshooting.md` | Handling objections and setbacks |
-| `12-tactic-design.md` | Rules for designing bulletproof tactics |
-| `13-between-cycles.md` | Break week protocol and transition to next cycle |
-| `14-rag-integration.md` | RAG / vector DB integration guide |
-| `15-cheat-sheet.md` | One-page agent quick-reference |
-| `16-emotional-cycle.md` | The 5 emotional zones of a 12-week cycle |
-| `17-state-management.md` | Agent state JSON schema and update rules |
-| `18-emotional-cycle-of-change.md` | ECOC — 5 stages of voluntary behavior change |
-| `19-competitive-landscape-achieve.md` | Competitor intel: official Achieve App analysis |
-| `agent-prompts.md` | Copy-paste prompt blocks for agents |
-| `templates/` | Reusable markdown templates for output |
-| `examples/` | Concrete examples for each component |
+| Fichier | Déclencheur |
+|---------|-------------|
+| `14-rag-integration.md` | Guide pour intégrer la KB dans un système RAG/vector DB |
+| `15-cheat-sheet.md` | Aide-mémoire une page avant les check-ins |
+| `16-emotional-cycle.md` | Les 5 zones émotionnelles + playbook par zone |
+| `18-emotional-cycle-of-change.md` | Modèle ECOC de Kelley & Conner (5 étapes psychologiques) |
+| `19-competitive-landscape-achieve.md` | Analyse de l'app officielle Achieve + stratégie de différenciation |
 
----
+### `knowledge/` — Vector DB (14 files)
 
-## Quick Reference for Agent
+Fichiers chunkés et embeddés dans une base vectorielle. Contenu domaine pur — concepts, templates, exemples.
 
-- **One year = four 12-week cycles**, separated by 1-week breaks.
-- **Goals per cycle:** 1–3 maximum. Fewer is better.
-- **Tactics per goal:** 2–5 weekly/daily actions.
-- **Scorekeeping is binary** for tactics (done / not done).
-- **Weekly score = execution score**, not result score.
-- **Urgency is the currency.** 12 weeks removes the illusion of "plenty of time."
+| Fichier | Contenu |
+|---------|---------|
+| `01-core-concepts.md` | Periodization, structure de cycle, équation de performance |
+| `02-framework.md` | Accountability, Commitment, Greatness in the Moment |
+| `03-vision.md` | Vision 3 ans, protocole de brain-storming |
+| `04-planning.md` | Critères de goal, décomposition en tactiques |
+| `05-process-control.md` | WAM, planification hebdomadaire, check quotidien |
+| `06-measurement.md` | Scorekeeping, lead vs lag measures |
+| `07-time-use.md` | Strategic block, buffer block, breakout block |
+| `09-glossary.md` | Définitions alphabétiques de tous les termes |
+| `12-tactic-design.md` | Les 6 règles pour des tactiques bulletproof |
+| `templates/12-week-plan-template.md` | Structure de sortie pour un plan 12 semaines |
+| `templates/weekly-plan-template.md` | Structure de sortie pour le plan d'une semaine |
+| `examples/example-fitness.md` | Exemple : remise en forme |
+| `examples/example-business.md` | Exemple : croissance business solopreneur |
+| `examples/example-book.md` | Exemple : écrire un livre en 12 semaines |
+| `examples/example-swamp.md` | Exemple : gestion du Swamp (semaines 5–7) |
+| `examples/example-tactic-transformation.md` | Exemple : transformation tactique faible → forte |
 
----
+## Key Rules (Never Override)
 
-> **Source material:** *The 12 Week Year* by Brian P. Moran & Michael Lennington  
-> **System:** Periodization + Execution Disciplines  
-> **Agent usage:** Plug into RAG / system prompt / vector DB  
+- **Max goals per cycle: 3**. Default to 1 if user is overwhelmed.
+- **Scorekeeping tracks execution (lead measures), not results (lag measures).**
+- **Weekly execution score is binary:** (done / not done) per tactic.
+- **Calendar-first:** Tactics must be scheduled.
+- **Never let user add goals mid-cycle.**
+- **Never skip break weeks.** Recovery is part of the system.
+
+## Agent Persona
+
+You are a 12 Week Year execution coach. Direct, compassionate, accountability-driven. You do not accept excuses. You diagnose obstacles. You celebrate execution. You protect the system from scope creep.
+
+## Ingestion Quick-Start
+
+1. **Agent layer** → Load all `agent/*.md` into system prompt
+2. **Knowledge layer** → Chunk all `knowledge/*.md` into vector DB (500–800 tokens, 100-token overlap)
+3. **RAG layer** → Set up semantic triggers to retrieve `rag/*.md` files on specific user queries
+
+See [`rag/14-rag-integration.md`](rag/14-rag-integration.md) for detailed chunking strategy and metadata schema.

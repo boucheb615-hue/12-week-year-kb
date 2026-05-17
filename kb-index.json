@@ -1,177 +1,184 @@
 {
   "name": "12-week-year-kb",
-  "version": "1.0.0",
-  "description": "Plug-and-play AI agent knowledge base for the 12 Week Year execution system",
+  "version": "2.0.0",
+  "description": "Plug-and-play AI agent knowledge base for the 12 Week Year execution system — organized by layer: agent (system prompt), rag (semantic recall), knowledge (vector DB)",
   "source": "The 12 Week Year by Brian P. Moran & Michael Lennington",
   "system": "Periodization + 3 Principles + 5 Disciplines",
-  "file_count": 29,
-  "files": [
-    {
-      "path": "README.md",
-      "title": "README",
-      "purpose": "Overview, structure, and usage instructions for the KB",
-      "ingestion_priority": 1
+  "file_count": 28,
+  "structure": {
+    "agent": "System prompt — loaded at inference. Persona, rules, protocols, state management.",
+    "rag": "Semantic recall — trigger-based retrieval. Cheat sheets, emotional models, competitive landscape.",
+    "knowledge": "Vector DB — chunked & embedded. Domain content, templates, examples."
+  },
+  "layers": {
+    "agent": {
+      "count": 7,
+      "files": [
+        {
+          "path": "agent/agent-prompts.md",
+          "title": "Agent Prompts",
+          "purpose": "Copy-pasteable system prompts and weekly check-in scripts",
+          "ingestion_priority": 1
+        },
+        {
+          "path": "agent/00-agent-index.md",
+          "title": "Agent Index",
+          "purpose": "Quick reference: ingestion order, rules, persona, escalation triggers, terminology",
+          "ingestion_priority": 2
+        },
+        {
+          "path": "agent/08-execution-protocol.md",
+          "title": "Execution Protocol",
+          "purpose": "Agent operating manual: user journey, weekly check-in script, emergency protocol, tone",
+          "ingestion_priority": 3
+        },
+        {
+          "path": "agent/10-first-conversation.md",
+          "title": "First Conversation Protocol",
+          "purpose": "Step-by-step onboarding flow for new users",
+          "ingestion_priority": 4
+        },
+        {
+          "path": "agent/11-troubleshooting.md",
+          "title": "Troubleshooting",
+          "purpose": "Tested responses to the 10 most common user objections",
+          "ingestion_priority": 5
+        },
+        {
+          "path": "agent/13-between-cycles.md",
+          "title": "Between Cycles",
+          "purpose": "Break week protocol and transition guidance from one 12-week cycle to the next",
+          "ingestion_priority": 6
+        },
+        {
+          "path": "agent/17-state-management.md",
+          "title": "Agent State Management",
+          "purpose": "Required JSON state structure and update rules for multi-week coaching",
+          "ingestion_priority": 7
+        }
+      ]
     },
-    {
-      "path": "00-agent-index.md",
-      "title": "Agent Index",
-      "purpose": "Quick reference: ingestion order, rules, persona, escalation triggers, terminology",
-      "ingestion_priority": 2
+    "rag": {
+      "count": 5,
+      "files": [
+        {
+          "path": "rag/14-rag-integration.md",
+          "title": "RAG Integration Guide",
+          "purpose": "Instructions for embedding this KB into any RAG or vector database system",
+          "trigger": "Developer configuring the agent's RAG infrastructure"
+        },
+        {
+          "path": "rag/15-cheat-sheet.md",
+          "title": "Cheat Sheet",
+          "purpose": "One-page quick reference for agents before weekly check-ins",
+          "trigger": "Pre-check-in refresh; agent needs quick protocol reminder"
+        },
+        {
+          "path": "rag/16-emotional-cycle.md",
+          "title": "Emotional Cycle",
+          "purpose": "The 5 emotional zones of a 12-week cycle and agent playbook per zone",
+          "trigger": "User reports motivation drop, low score, or is in weeks 3-9"
+        },
+        {
+          "path": "rag/18-emotional-cycle-of-change.md",
+          "title": "The Emotional Cycle of Change (ECOC)",
+          "purpose": "Kelley & Conner's 5-stage psychological model of voluntary behavior change (Uninformed Optimism → Valley of Despair → Success), with per-stage agent protocol",
+          "trigger": "User enters Valley of Despair or asks 'why is this so hard?'"
+        },
+        {
+          "path": "rag/19-competitive-landscape-achieve.md",
+          "title": "Competitive Landscape: Achieve App",
+          "purpose": "Analysis of the official 12 Week Year app (Achieve) — capabilities, pricing tiers, strengths, weaknesses, differentiation strategy for competing agents",
+          "trigger": "User asks about Achieve app or compares agent to official app"
+        }
+      ]
     },
-    {
-      "path": "01-core-concepts.md",
-      "title": "Core Concepts",
-      "purpose": "Periodization, cycle structure, 3 principles, 5 disciplines, performance equation",
-      "ingestion_priority": 3
-    },
-    {
-      "path": "02-framework.md",
-      "title": "Framework",
-      "purpose": "Detailed breakdown of Accountability, Commitment, Greatness in the Moment",
-      "ingestion_priority": 4
-    },
-    {
-      "path": "03-vision.md",
-      "title": "Vision",
-      "purpose": "How to craft 3-year vision, brain-storming protocol, quality checks, pitfalls",
-      "ingestion_priority": 5
-    },
-    {
-      "path": "04-planning.md",
-      "title": "Planning",
-      "purpose": "Goal criteria, tactics breakdown, weekly planning ritual, agent checklist",
-      "ingestion_priority": 6
-    },
-    {
-      "path": "05-process-control.md",
-      "title": "Process Control",
-      "purpose": "WAM, weekly planning, daily check, break week, process control tools",
-      "ingestion_priority": 7
-    },
-    {
-      "path": "06-measurement.md",
-      "title": "Measurement",
-      "purpose": "Scorekeeping philosophy, weekly scorecard, score ranges, lead vs lag measures",
-      "ingestion_priority": 8
-    },
-    {
-      "path": "07-time-use.md",
-      "title": "Time Use",
-      "purpose": "Time audit, strategic block, buffer block, breakout block, calendar template",
-      "ingestion_priority": 9
-    },
-    {
-      "path": "08-execution-protocol.md",
-      "title": "Execution Protocol",
-      "purpose": "Agent operating manual: user journey, weekly check-in script, emergency protocol, tone",
-      "ingestion_priority": 10
-    },
-    {
-      "path": "09-glossary.md",
-      "title": "Glossary",
-      "purpose": "Alphabetical definitions of all 12-week-year terms",
-      "ingestion_priority": 11
-    },
-    {
-      "path": "10-first-conversation.md",
-      "title": "First Conversation Protocol",
-      "purpose": "Step-by-step onboarding flow for new users",
-      "ingestion_priority": 12
-    },
-    {
-      "path": "11-troubleshooting.md",
-      "title": "Troubleshooting",
-      "purpose": "Tested responses to the 10 most common user objections",
-      "ingestion_priority": 13
-    },
-    {
-      "path": "12-tactic-design.md",
-      "title": "Tactic Design Rules",
-      "purpose": "The 6 rules for bulletproof tactics, tactic types, count guidelines, redesigns",
-      "ingestion_priority": 14
-    },
-    {
-      "path": "13-between-cycles.md",
-      "title": "Between Cycles",
-      "purpose": "Break week protocol and transition guidance from one 12-week cycle to the next",
-      "ingestion_priority": 15
-    },
-    {
-      "path": "14-rag-integration.md",
-      "title": "RAG Integration Guide",
-      "purpose": "Instructions for embedding this KB into any RAG or vector database system",
-      "ingestion_priority": 16
-    },
-    {
-      "path": "15-cheat-sheet.md",
-      "title": "Cheat Sheet",
-      "purpose": "One-page quick reference for agents before weekly check-ins",
-      "ingestion_priority": 18
-    },
-    {
-      "path": "16-emotional-cycle.md",
-      "title": "Emotional Cycle",
-      "purpose": "The 5 emotional zones and agent playbook per zone",
-      "ingestion_priority": 19
-    },
-    {
-      "path": "17-state-management.md",
-      "title": "Agent State Management",
-      "purpose": "Required JSON state structure and update rules for multi-week coaching",
-      "ingestion_priority": 20
-    },
-    {
-      "path": "agent-prompts.md",
-      "title": "Agent Prompts",
-      "purpose": "Copy-pasteable system prompts and weekly check-in scripts",
-      "ingestion_priority": 21
-    },
-    {
-      "path": "templates/12-week-plan-template.md",
-      "title": "12-Week Plan Template",
-      "purpose": "Reusable output structure for a complete 12-week plan"
-    },
-    {
-      "path": "templates/weekly-plan-template.md",
-      "title": "Weekly Plan Template",
-      "purpose": "Reusable output structure for a single week's plan"
-    },
-    {
-      "path": "examples/example-fitness.md",
-      "title": "Example A: Fitness",
-      "purpose": "Health and fitness 12-week plan with tactics and scorecard"
-    },
-    {
-      "path": "examples/example-business.md",
-      "title": "Example B: Business Growth",
-      "purpose": "Solopreneur lead-generation 12-week plan with tactics and scorecard"
-    },
-    {
-      "path": "examples/example-book.md",
-      "title": "Example C: Product Creation (Book)",
-      "purpose": "Author writing a 30,000-word book in 12 weeks with tactics and scorecard"
-    },
-    {
-      "path": "18-emotional-cycle-of-change.md",
-      "title": "The Emotional Cycle of Change (ECOC)",
-      "purpose": "Kelley & Conner's 5-stage psychological model of voluntary behavior change (Uninformed Optimism \u2192 Valley of Despair \u2192 Success), with per-stage agent protocol"
-    },
-    {
-      "path": "19-competitive-landscape-achieve.md",
-      "title": "Competitive Landscape: Achieve App",
-      "purpose": "Analysis of the official 12 Week Year app (Achieve) \u2014 capabilities, pricing tiers, strengths, weaknesses, differentiation strategy for competing agents"
-    },
-    {
-      "path": "examples/example-swamp.md",
-      "title": "Example D: The Swamp (Weeks 5-7)",
-      "purpose": "Annotated example of agent handling a user in The Swamp \u2014 normalization, reconnection, diagnosis, recommitment"
-    },
-    {
-      "path": "examples/example-tactic-transformation.md",
-      "title": "Example E: Tactic Transformation (Weak \u2192 Strong)",
-      "purpose": "Step-by-step transformation of a weak plan into a strong executable plan using all 6 Tactic Design Rules"
+    "knowledge": {
+      "count": 16,
+      "files": [
+        {
+          "path": "knowledge/01-core-concepts.md",
+          "title": "Core Concepts",
+          "purpose": "Periodization, cycle structure, 3 principles, 5 disciplines, performance equation"
+        },
+        {
+          "path": "knowledge/02-framework.md",
+          "title": "Framework",
+          "purpose": "Detailed breakdown of Accountability, Commitment, Greatness in the Moment"
+        },
+        {
+          "path": "knowledge/03-vision.md",
+          "title": "Vision",
+          "purpose": "How to craft 3-year vision, brain-storming protocol, quality checks, pitfalls"
+        },
+        {
+          "path": "knowledge/04-planning.md",
+          "title": "Planning",
+          "purpose": "Goal criteria, tactics breakdown, weekly planning ritual, agent checklist"
+        },
+        {
+          "path": "knowledge/05-process-control.md",
+          "title": "Process Control",
+          "purpose": "WAM, weekly planning, daily check, break week, process control tools"
+        },
+        {
+          "path": "knowledge/06-measurement.md",
+          "title": "Measurement",
+          "purpose": "Scorekeeping philosophy, weekly scorecard, score ranges, lead vs lag measures"
+        },
+        {
+          "path": "knowledge/07-time-use.md",
+          "title": "Time Use",
+          "purpose": "Time audit, strategic block, buffer block, breakout block, calendar template"
+        },
+        {
+          "path": "knowledge/09-glossary.md",
+          "title": "Glossary",
+          "purpose": "Alphabetical definitions of all 12-week-year terms"
+        },
+        {
+          "path": "knowledge/12-tactic-design.md",
+          "title": "Tactic Design Rules",
+          "purpose": "The 6 rules for bulletproof tactics, tactic types, count guidelines, redesigns"
+        },
+        {
+          "path": "knowledge/templates/12-week-plan-template.md",
+          "title": "12-Week Plan Template",
+          "purpose": "Reusable output structure for a complete 12-week plan"
+        },
+        {
+          "path": "knowledge/templates/weekly-plan-template.md",
+          "title": "Weekly Plan Template",
+          "purpose": "Reusable output structure for a single week's plan"
+        },
+        {
+          "path": "knowledge/examples/example-fitness.md",
+          "title": "Example A: Fitness",
+          "purpose": "Health and fitness 12-week plan with tactics and scorecard"
+        },
+        {
+          "path": "knowledge/examples/example-business.md",
+          "title": "Example B: Business Growth",
+          "purpose": "Solopreneur lead-generation 12-week plan with tactics and scorecard"
+        },
+        {
+          "path": "knowledge/examples/example-book.md",
+          "title": "Example C: Product Creation (Book)",
+          "purpose": "Author writing a 30,000-word book in 12 weeks with tactics and scorecard"
+        },
+        {
+          "path": "knowledge/examples/example-swamp.md",
+          "title": "Example D: The Swamp (Weeks 5-7)",
+          "purpose": "Annotated example of agent handling a user in The Swamp — normalization, reconnection, diagnosis, recommitment"
+        },
+        {
+          "path": "knowledge/examples/example-tactic-transformation.md",
+          "title": "Example E: Tactic Transformation (Weak → Strong)",
+          "purpose": "Step-by-step transformation of a weak plan into a strong executable plan"
+        }
+      ]
     }
-  ],
+  },
   "agent_rules": {
     "max_goals_per_cycle": 3,
     "default_goals_for_overwhelmed": 1,
@@ -207,7 +214,6 @@
     "Choose To vs Have To",
     "Emotional Cycle of Change",
     "Valley of Despair",
-    "Achieve App",
-    "Periodization"
+    "Achieve App"
   ]
 }

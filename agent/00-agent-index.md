@@ -6,24 +6,29 @@ This knowledge base is designed for **RAG ingestion, system prompt context, or v
 
 ### Ingestion Order (Recommended)
 
-1. `01-core-concepts.md` — Definitions and philosophy
-2. `02-framework.md` — Principles and disciplines detail
-3. `03-vision.md` → `07-time-use.md` — Domain details
-4. `08-execution-protocol.md` — How to interact with users
-5. `09-glossary.md` — Terms and definitions
-6. `10-first-conversation.md` — Onboarding a new user
-7. `11-troubleshooting.md` — Handling objections and setbacks
-8. `12-tactic-design.md` — Rules for designing bulletproof tactics
-9. `13-between-cycles.md` — Break week protocol and next-cycle transition
-10. `14-rag-integration.md` — RAG / vector DB integration guide
-11. `15-cheat-sheet.md` — One-page agent quick-reference
-12. `16-emotional-cycle.md` — The 5 emotional zones of a 12-week cycle
-13. `17-state-management.md` — Agent state JSON schema and update rules
-14. `18-emotional-cycle-of-change.md` — Kelley & Conner's ECOC (Uninformed Optimism → Valley of Despair → Success)
-15. `19-competitive-landscape-achieve.md` — Official Achieve App analysis + differentiation strategy
-16. `agent-prompts.md` — Copy-paste prompts for agents
-17. `examples/` — Concrete cases (swamp, tactic transformation, fitness, business, book)
-18. `templates/` — Output formats when generating plans
+**Agent layer** — system prompt (loaded at inference):
+1. `agent-prompts.md` — Copy-paste prompts for agents
+2. `08-execution-protocol.md` — How to interact with users
+3. `10-first-conversation.md` — Onboarding a new user
+4. `11-troubleshooting.md` — Handling objections and setbacks
+5. `13-between-cycles.md` — Break week protocol and next-cycle transition
+6. `17-state-management.md` — Agent state JSON schema and update rules
+
+**Knowledge layer** — vector DB (chunked & embedded):
+7. `01-core-concepts.md` — Definitions and philosophy
+8. `02-framework.md` — Principles and disciplines detail
+9. `03-vision.md` → `07-time-use.md` — Domain details
+10. `09-glossary.md` — Terms and definitions
+11. `12-tactic-design.md` — Rules for designing bulletproof tactics
+12. `examples/` — Concrete cases (swamp, tactic transformation, fitness, business, book)
+13. `templates/` — Output formats when generating plans
+
+**RAG layer** — semantic recall (trigger-based retrieval):
+14. `14-rag-integration.md` — RAG / vector DB integration guide
+15. `15-cheat-sheet.md` — One-page agent quick-reference
+16. `16-emotional-cycle.md` — The 5 emotional zones of a 12-week cycle
+17. `18-emotional-cycle-of-change.md` — Kelley & Conner's ECOC (Uninformed Optimism → Valley of Despair → Success)
+18. `19-competitive-landscape-achieve.md` — Official Achieve App analysis + differentiation strategy
 
 ### Key Rules (Never Override)
 
@@ -40,12 +45,12 @@ This knowledge base is designed for **RAG ingestion, system prompt context, or v
 |-----------|-------|
 | New user onboarding | [`10-first-conversation.md`](10-first-conversation.md) |
 | User is stuck / objecting | [`11-troubleshooting.md`](11-troubleshooting.md) |
-| User in The Swamp (weeks 5–7) | [`08-execution-protocol.md`](08-execution-protocol.md) + [`examples/example-swamp.md`](examples/example-swamp.md) |
-| User in Valley of Despair / ECOC | [`18-emotional-cycle-of-change.md`](18-emotional-cycle-of-change.md) |
-| Designing tactics | [`12-tactic-design.md`](12-tactic-design.md) |
+| User in The Swamp (weeks 5–7) | [`08-execution-protocol.md`](08-execution-protocol.md) + [`example-swamp.md`](../knowledge/examples/example-swamp.md) |
+| User in Valley of Despair / ECOC | [`18-emotional-cycle-of-change.md`](../rag/18-emotional-cycle-of-change.md) |
+| Designing tactics | [`12-tactic-design.md`](../knowledge/12-tactic-design.md) |
 | End of cycle / break week | [`13-between-cycles.md`](13-between-cycles.md) |
-| Integrating into RAG system | [`14-rag-integration.md`](14-rag-integration.md) |
-| User asks about Achieve / official app | [`19-competitive-landscape-achieve.md`](19-competitive-landscape-achieve.md) |
+| Integrating into RAG system | [`14-rag-integration.md`](../rag/14-rag-integration.md) |
+| User asks about Achieve / official app | [`19-competitive-landscape-achieve.md`](../rag/19-competitive-landscape-achieve.md) |
 
 ### Agent Persona
 
@@ -61,7 +66,7 @@ You are a 12 Week Year execution coach. You are direct, compassionate, and accou
 | User asks for "more strategies" | Refuse. "Execution of what you know is the bottleneck." |
 | User reports score < 50% 2 weeks in a row | Emergency protocol. |
 
-### Terminology (See `09-glossary.md` for full list)
+### Terminology (See [`09-glossary.md`](../knowledge/09-glossary.md) for full list)
 
 | Term | Quick Definition |
 |------|------------------|
@@ -78,5 +83,5 @@ You are a 12 Week Year execution coach. You are direct, compassionate, and accou
 | **Buffer Block** | 30–60 min blocks (1-2/day) for reactive/admin work. |
 | **Breakout Block** | 3-hour rest/refresh block once/week during business hours. NOT work — "you time" to prevent burnout. |
 | **WAM** | Weekly Accountability Meeting (15 min). |
-| **Achieve App** | The official 12 Week Year app by The Execution Company. See [`19-competitive-landscape-achieve.md`](19-competitive-landscape-achieve.md). |
+| **Achieve App** | The official 12 Week Year app by The Execution Company. See [`19-competitive-landscape-achieve.md`](../rag/19-competitive-landscape-achieve.md). |
 
