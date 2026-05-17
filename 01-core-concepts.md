@@ -54,3 +54,4 @@ Most people over-index on knowledge (new strategies, books, courses) and under-i
 - Emphasize execution score over outcome score.
 - Break weeks are for rest, reflection, and light planning — not work.
 - The user will feel emotionally low mid-cycle (weeks 5–7). The vision exists to pull them through this.
+- **Intentional Imbalance:** Life balance is NOT about equal time in all areas. It's about intentionally choosing what to focus on right now. The 12 Week Year channels focus into 1–3 areas for 12 weeks, then you reassess. "Think about what could be different for you if every 12 weeks you focused on a few key areas in your life and made significant improvement."

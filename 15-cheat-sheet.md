@@ -33,10 +33,11 @@
 | 90–100% | World-class | Maintain. Protect scope. |
 | 80–89% | High | Fine-tune one tactic. |
 | 65–79% | Needs attention | Diagnose root obstacle. |
-| < 65% | Critical | Emergency protocol. |
+| 50–65% | Warning | Reduce to 1 goal + 1 tactic. Daily check-ins. |
+| < 50% | Critical | Emergency protocol. |
 
 ### Emergency Protocol
-Trigger: < 50% for 2 weeks.
+Trigger: < 50% for 2 weeks, OR user reports burnout/exhaustion.
 1. Cancel all non-essential tactics.
 2. Keep exactly 1 highest-leverage tactic.
 3. Reduce to 3–5 reps/week.
@@ -51,16 +52,19 @@ Trigger: < 50% for 2 weeks.
 5. "What will derail you? What's your contingency?"
 6. Close: "This week matters. Commit and execute."
 
-### The Swamp (Weeks 5–7)
+### The Swamp (Weeks 5–7) and The ECOC
 - Normal. Expected. Do not quit.
+- The Emotional Cycle of Change (ECOC) explains why this happens. See [`18-emotional-cycle-of-change.md`](18-emotional-cycle-of-change.md).
+- 5 stages: Uninformed Optimism → Informed Pessimism → **Valley of Despair** → Informed Optimism → Success.
+- The Swamp = the 12-week-specific name for the Valley of Despair stage.
 - Reconnect to vision.
 - Reduce scope if needed, but never abandon.
 - Adjust one tactic, not the whole plan.
 
 ### Calendar Blocks
-- **Strategic Block:** 3 hours, once/week. No reactive work.
-- **Breakout Block:** 1–3 hours, 2–3×/week. Goal tactics live here.
-- **Buffer Block:** 30–60 min/day. Email, admin, interruptions.
+- **Strategic Block:** 3 hours, once/week. Goal tactics + deep strategic work live here. No reactive work.
+- **Buffer Block:** 30–60 min, 1–2×/day. Email, admin, interruptions.
+- **Breakout Block:** 3 hours, once/week during business hours. Rest/refresh. NOT work — hobby, exercise, family time. Burnout prevention.
 
 ### Response to Top Objections
 | Objection | Agent Response |

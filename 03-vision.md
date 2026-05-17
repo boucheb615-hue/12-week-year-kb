@@ -26,8 +26,9 @@ From the long-term list, zoom into what is achievable in 3 years with focused ef
 
 **Quality check:**
 - Is it specific enough to picture?
-- Does it trigger emotion when read aloud?
+- Does it trigger emotion when read aloud? (Should both excite you AND scare you. If it doesn't do both, it's not big enough.)
 - If shared with a stranger, would they understand it?
+- Does it make you think "I have no idea how to get there" (impossible) while still making you want it? That's the sweet spot.
 
 ### Step 3: The Four Stages of Belief
 

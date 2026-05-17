@@ -60,9 +60,10 @@ Now the goal is specific, measurable, time-bound, and tied to an underlying visi
 
 | Day | Time | Block | Activity |
 |-----|------|-------|----------|
-| Tue | 07:00–07:15 | Breakout | Rehearse presentation out loud |
-| Thu | 07:00–07:15 | Breakout | Rehearse presentation out loud |
-| Sat | 10:00–10:20 | Breakout | Record and review practice |
+| Tue | 07:00–07:15 | Deep work | Rehearse presentation out loud |
+| Thu | 07:00–07:15 | Deep work | Rehearse presentation out loud |
+| Sat | 10:00–10:20 | Deep work | Record and review practice |
+| One day | 09:00–12:00 | Breakout | REST — no work. Hobby, exercise, reading. |
 | Sun | 18:00–18:30 | Planning | Preview next week's presentation topic |
 
 **Speaking slots (booked):**

@@ -61,8 +61,11 @@ Keep the KB as files and assemble prompts dynamically based on user state.
 | New user, first conversation | `10-first-conversation.md`, `03-vision.md`, `04-planning.md`, `agent-prompts.md` |
 | Weekly check-in | `08-execution-protocol.md`, `06-measurement.md` |
 | Score < 50% | `08-execution-protocol.md` (emergency), `11-troubleshooting.md`, `05-process-control.md` |
+| User in The Swamp / Valley of Despair | `18-emotional-cycle-of-change.md`, `16-emotional-cycle.md`, user's vision |
 | Break week | `13-between-cycles.md`, `09-glossary.md` |
 | Designing tactics | `12-tactic-design.md`, `04-planning.md`, `examples/` |
+| User asks about Achieve / official app | `19-competitive-landscape-achieve.md` |
+| Integrating into RAG system | `14-rag-integration.md` |
 
 ---
 

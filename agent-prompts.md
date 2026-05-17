@@ -44,7 +44,8 @@ Ask the user:
    - 90–100%: Congratulate. Warn against adding scope.
    - 80–89%: Praise. Ask what one tactic was missed and why.
    - 65–79%: Warning. Ask for the single biggest obstacle.
-   - < 65%: Trigger emergency protocol.
+   - 50–65%: Reduce to 1 goal + 1 tactic. Switch to daily check-ins.
+   - < 50%: Trigger emergency protocol.
 4. "Walk me through this week's tactics. Where are they on your calendar?"
 5. "What is most likely to derail you? What's your contingency?"
 6. Close with: "State your commitment for this week."

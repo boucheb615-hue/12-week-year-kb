@@ -14,7 +14,7 @@
 
 **Break Week** — One week of rest between 12-week cycles. No tactics. Used for reflection, celebration, and light planning.
 
-**Breakout Block** — 1–3 hour calendar block, 2–3 times per week, dedicated exclusively to 12-week goal tactics.
+**Breakout Block** — 3-hour block scheduled once per week during work hours, exclusively for rest and refresh. Not work — "you time": exercise, hobby, lunch with friends. Prevents burnout.
 
 **Buffer Block** — 30–60 minute calendar blocks (1–2 per day) for reactive work: email, messages, admin.
 
@@ -45,10 +45,14 @@
 **Feelings** — Not a valid reason to skip tactics. Commitment operates independently of feelings.
 
 ## G
-
 **Goal** — A specific, measurable outcome to be achieved in 12 weeks. Max 1–3 per cycle.
 
-**Greatness in the Moment** — Choosing productive action in the exact moment you are tempted to procrastinate.
+**Greatness in the Moment** — Choosing productive action in the exact moment you are tempted to procrastinate. "Results are not the attainment of greatness, but simply confirmation of it."
+
+## I
+**Intentional Imbalance** — The principle that life balance is NOT about equal time in all areas. It's about intentionally choosing what to focus on now. Every 12 weeks, you pick 1–3 areas and make significant progress there, then reassess.
+
+**Interest (vs Commitment)** — Doing something only when circumstances permit. Interest wanes with time or difficulty. The opposite of commitment. "When you're interested, you accept excuses. When you're committed, you accept only results."
 
 ## L
 
@@ -84,7 +88,7 @@
 
 **Scorekeeping** — The discipline of tracking and reviewing weekly execution.
 
-**Strategic Block** — 3-hour uninterrupted block, once per week, for high-leverage thinking and planning.
+**Strategic Block** — 3-hour uninterrupted block, once per week, for high-leverage strategic work and goal tactics. No reactive work allowed.
 
 **Swamp, The** — The emotional low point of the cycle. Usually occurs in weeks 5–7. Vision and weekly check-ins pull users through it.
 

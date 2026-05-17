@@ -24,7 +24,7 @@ The gap between total hours and allocated hours is the **tactical pool**.
 
 A 3-hour uninterrupted block, scheduled once per week (usually Monday morning).
 
-**Purpose:** High-leverage thinking and planning.
+**Purpose:** High-leverage strategic work and execution of goal tactics. This is where your 12-week plan lives. Each critical tactic must reside inside a strategic block or an equivalent deep-work slot.
 **Rules:** No email, no notifications, no reactive work.
 **Agent prompt:** "What 1–2 activities, if done for 3 hours, would create the most progress toward your 12-week goal?"
 
@@ -36,32 +36,36 @@ Two 30–60 minute blocks per day for reactive work: email, messages, admin.
 
 ## The Breakout Block
 
-A 1–3 hour block, 2–3 times per week, for tactics directly tied to 12-week goals.
+A 3-hour block, scheduled once per week (during normal business hours), for rest and refresh — **not work.**
 
-**This is where the 12-week plan lives.** Each tactic must reside inside a breakout block.
+**Purpose:** Prevent burnout. Breakout blocks are "you time": a hobby, a long lunch, time with family, exercise, reading for pleasure. They are scheduled during the work day, not after, to signal that recovery is a priority, not an afterthought.
+**Rule:** No checking email. No "quick" work. If the user's calendar has no breakout block, they are on a path to burnout.
 
 ## Calendar Architecture Template
 
 ```
 Monday
   08:00–09:00  — Weekly Planning Session
-  09:00–12:00  — Strategic Block
+  09:00–12:00  — Strategic Block (Goal tactics + deep work)
   12:00–13:00  — Lunch
-  13:00–14:30  — Breakout Block (Goal tactics)
+  13:00–14:30  — Deep work / Goal tactics
   14:30–15:00  — Buffer Block
   15:00–17:00  — Regular work
   17:00–17:15  — Daily execution check
 
 Tuesday–Friday
   08:00–08:30  — Morning routine
-  08:30–10:30  — Deep work / Breakout Block
+  08:30–10:30  — Deep work / Strategic Block
   10:30–11:00  — Buffer Block
   11:00–12:30  — Regular work
   12:30–13:30  — Lunch
-  13:30–15:30  — Deep work / Breakout Block
+  13:30–15:30  — Deep work / Goal tactics
   15:30–16:00  — Buffer Block
   16:00–17:00  — Regular work / wrap-up
   17:00–17:15  — Daily execution check
+
+One Day of Your Choice
+  09:00–12:00  — Breakout Block (YOU time — no work. Rest, hobby, exercise, lunch with friends)
 ```
 
 ## Agent Time-Use Coaching

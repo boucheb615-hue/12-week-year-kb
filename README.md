@@ -24,7 +24,7 @@ The 12 Week Year replaces annual goal-setting with 12-week cycles. Each cycle is
 | `00-agent-index.md` | Quick reference for AI agents |
 | `01-core-concepts.md` | Foundational definitions and the "why" |
 | `02-framework.md` | The 3 Principles + 5 Disciplines |
-| `03-vision.md` | How to craft a compelling vision (1-year, 3-year) |
+| `03-vision.md` | How to craft a compelling vision (long-term, 3-year) |
 | `04-planning.md` | 12-week goals + tactics breakdown |
 | `05-process-control.md` | Weekly plan + accountability rituals |
 | `06-measurement.md` | Scorekeeping + weekly scorecards |
@@ -38,6 +38,9 @@ The 12 Week Year replaces annual goal-setting with 12-week cycles. Each cycle is
 | `14-rag-integration.md` | RAG / vector DB integration guide |
 | `15-cheat-sheet.md` | One-page agent quick-reference |
 | `16-emotional-cycle.md` | The 5 emotional zones of a 12-week cycle |
+| `17-state-management.md` | Agent state JSON schema and update rules |
+| `18-emotional-cycle-of-change.md` | ECOC — 5 stages of voluntary behavior change |
+| `19-competitive-landscape-achieve.md` | Competitor intel: official Achieve App analysis |
 | `agent-prompts.md` | Copy-paste prompt blocks for agents |
 | `templates/` | Reusable markdown templates for output |
 | `examples/` | Concrete examples for each component |

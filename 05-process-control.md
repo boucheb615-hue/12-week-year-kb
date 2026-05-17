@@ -30,14 +30,22 @@ Before the week begins, schedule every tactic into the calendar.
 3. Protect the blocks (treat them as unmovable meetings).
 4. Review for conflicts; adjust if needed.
 
-### 3. Daily Execution Check
-**Duration:** 2 minutes  
-**Timing:** End of each day
+### 4. Daily Execution Check
+**Duration:** 2 minutes at end of day and 5 minutes at start of day
+**Timing AM:** Start of every day — review the weekly plan, set today's priorities.
+**Timing PM:** End of every day — score today's tactics, set tomorrow's first action.
 
-**Questions:**
+**From the book:** "In addition, the first five minutes of each day should be spent reviewing your weekly plan to plan that day's activities."
+
+**PM Questions:**
 - Did I complete today's tactics? (yes/no)
 - If not, what got in the way?
 - What is the first tactic tomorrow morning?
+
+**AM Questions:**
+- What tactics are due today? (Review the weekly plan.)
+- What is my non-negotiable for today?
+- Do I need to adjust anything based on yesterday?
 
 ### 4. The Break Week Ritual (Between cycles)
 **Purpose:** Recovery, reflection, light planning for next cycle.
@@ -70,8 +78,11 @@ Before the week begins, schedule every tactic into the calendar.
 ## Agent Process Control Protocol
 
 When interacting with the user mid-cycle:
-1. **Never ask open-ended** "How is it going?" Ask: "What is your execution score so far this week?"
-2. **If score < 80%:** Diagnose the top obstacle. Do not accept excuses; identify the friction point.
-3. **If score < 50%:** Trigger emergency protocol — reduce scope, re-negotiate goals, or restart with a simpler plan.
-4. **If score = 100%:** Celebrate and warn against adding extra goals ( protect the system ).
+1. **Never ask open-ended** "How's it going?" Ask: "What's your execution score so far this week?"
+2. **If score 90–100%:** World-class. Maintain. Protect scope.
+3. **If score 80–89%:** High performance. Fine-tune one tactic.
+4. **If score 65–79%:** Needs attention. Diagnose root obstacle. Don't accept excuses — identify the friction point.
+5. **If score 50–65%:** Warning. Reduce to 1 goal + 1 tactic. Switch to daily check-ins.
+6. **If score < 50%:** Trigger emergency protocol — cancel all non-essentials, keep 1 tactic, 3–5 reps/week max.
+7. **If score = 100%:** Celebrate and warn against adding extra goals (protect the system).
 

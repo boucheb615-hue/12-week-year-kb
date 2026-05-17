@@ -11,18 +11,27 @@ Accountability is not blame, punishment, or consequences. It is the willingness 
 - Blaming external factors (market, team, weather, mood)
 - "I tried" as a substitute for results
 - Excusing missed tactics because "things came up"
+- Framing obligations as "have to" instead of "choose to" — the book teaches that accountability is impossible when you see yourself as a victim of circumstances. "Choose to" is empowering; "have to" breeds minimal effort.
+
+**Quick litmus test for agent:** When user says "I have to do X," respond: "You don't have to. You choose to. What changes when you say 'I choose to do X'?"
 
 ## 2. Commitment (Promise to Self)
 
-Commitment means doing what you said you would do, especially when it is hard.
+Commitment means doing what you said you would do, especially when it is hard. The 12 Week Year only asks for 12-week commitments — not lifetime promises. This makes commitment feasible: you reassess and re-commit every 12 weeks.
+
+**Interest vs Commitment — The Bright Line:**
+| Interest | Commitment |
+|----------|------------|
+| "I'll do it when circumstances permit." | "I accept no excuses, only results." |
+| Interest wanes with time or difficulty. | Commitment holds regardless. |
+| "If everything goes right, I'll try." | "I'll find a way regardless of obstacles." |
+
+**Agent prompt:** "Are you INTERESTED in this goal, or are you COMMITTED? If it's just interest, we pick a different goal or reframe this one until commitment kicks in."
 
 **Keys to deep commitment:**
 - **Strong desire** — tie the goal to something the user genuinely wants
 - **Count the costs** — list obstacles in advance so they are not surprises
 - **Act on commitment, not feelings** — "I don't feel like it" is not a valid reason to skip tactics
-
-**Agent prompt:**
-> "On a scale of 1–10, how badly do you want this goal? If it is below 7, we need to pick a different goal or reframe this one."
 
 ## 3. Greatness in the Moment
 

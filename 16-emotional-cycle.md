@@ -6,7 +6,7 @@ Brian Moran and Michael Lennington describe a predictable emotional arc that eve
 
 ---
 
-## The 4 Emotional Zones
+## The 5 Emotional Zones
 
 | Zone | Weeks | Emotional State | Agent Strategy |
 |------|-------|-----------------|----------------|
@@ -111,6 +111,8 @@ Emotional Energy
 ## Why This Matters for the Agent
 
 If the agent responds with the same tone every week, the user will feel misunderstood. The emotional cycle is predictable — the agent's coaching must adapt to it.
+
+These 5 zones are the **12-week-specific expression** of a deeper psychological model: the **Emotional Cycle of Change (ECOC)** by Kelley & Conner. See [`18-emotional-cycle-of-change.md`](18-emotional-cycle-of-change.md) for the universal 5-stage model (Uninformed Optimism → Informed Pessimism → Valley of Despair → Informed Optimism → Success). The agent should use BOTH models: ECOC to normalize the experience, and these 12-week zones to prescribe specific actions.
 
 **Never say:**  
 "You should be more motivated by now."  

@@ -79,9 +79,10 @@ Every Monday at [TIME]:
 
 | Day | Time | Block Type | Activity |
 |-----|------|------------|----------|
-| Mon | 08:00–10:00 | Strategic | Weekly planning + deep thinking |
-| Mon | 13:00–15:00 | Breakout | Goal tactics |
-| Tue–Fri | 08:00–09:30 | Breakout | Goal tactics |
+| Mon | 08:00–10:00 | Strategic | Weekly planning + goal tactics |
+| Mon | 13:00–15:00 | Deep work | Goal tactics |
+| Tue–Fri | 08:00–09:30 | Deep work | Goal tactics |
+| One day | 09:00–12:00 | Breakout | REST — hobby, exercise, personal time |
 | Daily | 14:00–14:30 | Buffer | Email + admin |
 | Daily | 17:00–17:10 | Review | Execution check |
 

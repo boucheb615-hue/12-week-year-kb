@@ -14,14 +14,16 @@ This knowledge base is designed for **RAG ingestion, system prompt context, or v
 6. `10-first-conversation.md` — Onboarding a new user
 7. `11-troubleshooting.md` — Handling objections and setbacks
 8. `12-tactic-design.md` — Rules for designing bulletproof tactics
-9. `12-tactic-design.md` — Rules for designing bulletproof tactics
-10. `13-between-cycles.md` — Break week protocol and next-cycle transition
-11. `14-rag-integration.md` — RAG / vector DB integration guide
-12. `15-cheat-sheet.md` — One-page agent quick-reference
-13. `16-emotional-cycle.md` — The 5 emotional zones of a 12-week cycle
-14. `agent-prompts.md` — Copy-paste prompts for agents
-15. `examples/` — Concrete cases when user is stuck
-16. `templates/` — Output formats when generating plans
+9. `13-between-cycles.md` — Break week protocol and next-cycle transition
+10. `14-rag-integration.md` — RAG / vector DB integration guide
+11. `15-cheat-sheet.md` — One-page agent quick-reference
+12. `16-emotional-cycle.md` — The 5 emotional zones of a 12-week cycle
+13. `17-state-management.md` — Agent state JSON schema and update rules
+14. `18-emotional-cycle-of-change.md` — Kelley & Conner's ECOC (Uninformed Optimism → Valley of Despair → Success)
+15. `19-competitive-landscape-achieve.md` — Official Achieve App analysis + differentiation strategy
+16. `agent-prompts.md` — Copy-paste prompts for agents
+17. `examples/` — Concrete cases (swamp, tactic transformation, fitness, business, book)
+18. `templates/` — Output formats when generating plans
 
 ### Key Rules (Never Override)
 
@@ -39,9 +41,11 @@ This knowledge base is designed for **RAG ingestion, system prompt context, or v
 | New user onboarding | [`10-first-conversation.md`](10-first-conversation.md) |
 | User is stuck / objecting | [`11-troubleshooting.md`](11-troubleshooting.md) |
 | User in The Swamp (weeks 5–7) | [`08-execution-protocol.md`](08-execution-protocol.md) + [`examples/example-swamp.md`](examples/example-swamp.md) |
+| User in Valley of Despair / ECOC | [`18-emotional-cycle-of-change.md`](18-emotional-cycle-of-change.md) |
 | Designing tactics | [`12-tactic-design.md`](12-tactic-design.md) |
 | End of cycle / break week | [`13-between-cycles.md`](13-between-cycles.md) |
 | Integrating into RAG system | [`14-rag-integration.md`](14-rag-integration.md) |
+| User asks about Achieve / official app | [`19-competitive-landscape-achieve.md`](19-competitive-landscape-achieve.md) |
 
 ### Agent Persona
 
@@ -67,10 +71,12 @@ You are a 12 Week Year execution coach. You are direct, compassionate, and accou
 | **Execution Score** | % of tactics completed in a week (binary). |
 | **Break Week** | 1-week recovery between cycles. |
 | **The Swamp** | Emotional low point mid-cycle (weeks 5–7). |
+| **ECOC** | Emotional Cycle of Change — Kelley & Conner's 5-stage model (Uninformed Optimism → Informed Pessimism → Valley of Despair → Informed Optimism → Success). |
 | **Lead Measure** | Input the user controls (e.g., wrote 500 words). |
 | **Lag Measure** | Output the user hopes for (e.g., finished book). |
-| **Strategic Block** | 3-hour uninterrupted thinking block, once/week. |
-| **Breakout Block** | Calendar block for 12-week goal tactics. |
-| **Buffer Block** | Calendar block for reactive/admin work. |
+| **Strategic Block** | 3-hour uninterrupted block, once/week, for goal tactics and deep strategic work. |
+| **Buffer Block** | 30–60 min blocks (1-2/day) for reactive/admin work. |
+| **Breakout Block** | 3-hour rest/refresh block once/week during business hours. NOT work — "you time" to prevent burnout. |
 | **WAM** | Weekly Accountability Meeting (15 min). |
+| **Achieve App** | The official 12 Week Year app by The Execution Company. See [`19-competitive-landscape-achieve.md`](19-competitive-landscape-achieve.md). |
 

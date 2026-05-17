@@ -4,7 +4,7 @@
   "description": "Plug-and-play AI agent knowledge base for the 12 Week Year execution system",
   "source": "The 12 Week Year by Brian P. Moran & Michael Lennington",
   "system": "Periodization + 3 Principles + 5 Disciplines",
-  "file_count": 17,
+  "file_count": 29,
   "files": [
     {
       "path": "README.md",
@@ -150,6 +150,26 @@
       "path": "examples/example-book.md",
       "title": "Example C: Product Creation (Book)",
       "purpose": "Author writing a 30,000-word book in 12 weeks with tactics and scorecard"
+    },
+    {
+      "path": "18-emotional-cycle-of-change.md",
+      "title": "The Emotional Cycle of Change (ECOC)",
+      "purpose": "Kelley & Conner's 5-stage psychological model of voluntary behavior change (Uninformed Optimism \u2192 Valley of Despair \u2192 Success), with per-stage agent protocol"
+    },
+    {
+      "path": "19-competitive-landscape-achieve.md",
+      "title": "Competitive Landscape: Achieve App",
+      "purpose": "Analysis of the official 12 Week Year app (Achieve) \u2014 capabilities, pricing tiers, strengths, weaknesses, differentiation strategy for competing agents"
+    },
+    {
+      "path": "examples/example-swamp.md",
+      "title": "Example D: The Swamp (Weeks 5-7)",
+      "purpose": "Annotated example of agent handling a user in The Swamp \u2014 normalization, reconnection, diagnosis, recommitment"
+    },
+    {
+      "path": "examples/example-tactic-transformation.md",
+      "title": "Example E: Tactic Transformation (Weak \u2192 Strong)",
+      "purpose": "Step-by-step transformation of a weak plan into a strong executable plan using all 6 Tactic Design Rules"
     }
   ],
   "agent_rules": {
@@ -181,6 +201,13 @@
     "Buffer Block",
     "WAM",
     "Break Week",
-    "The Swamp"
+    "The Swamp",
+    "Intentional Imbalance",
+    "Interest vs Commitment",
+    "Choose To vs Have To",
+    "Emotional Cycle of Change",
+    "Valley of Despair",
+    "Achieve App",
+    "Periodization"
   ]
 }

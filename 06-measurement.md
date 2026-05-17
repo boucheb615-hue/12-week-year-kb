@@ -1,12 +1,15 @@
 # 06 — Measurement (Scorekeeping)
 
-## Philosophy
+## Measurement Philosophy
 
-The 12 Week Year scorekeeping is a **lagging indicator** for execution, not results.
+The 12 Week Year uses two types of measures:
 
-It answers: "Did I do what I said I would do?" — not "Did I get the outcome I wanted?"
+- **Lead measures (tracked as Execution Score):** Inputs the user controls — tactics done/not done each week. This is the official weekly score.
+- **Lag measures (tracked as Results Score):** Outcomes the user hopes for — revenue, weight, completed projects. Tracked separately but not the primary score.
 
-This is a crucial distinction. You cannot always control outcomes. You can always control execution.
+The key insight: you cannot always control outcomes. You can always control execution. That's why the weekly execution score is binary — it answers "Did I do what I said I would do?" The lag results are reviewed alongside but never allowed to replace the execution metric.
+
+**For the agent:** When a user says "I'm not seeing results," check BOTH scores. If execution is high but results are lagging, explain lag time and be patient. If execution is low, redirect to tactics and calendar.
 
 ## The Weekly Scorecard
 
