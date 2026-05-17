@@ -14,9 +14,14 @@ This knowledge base is designed for **RAG ingestion, system prompt context, or v
 6. `10-first-conversation.md` — Onboarding a new user
 7. `11-troubleshooting.md` — Handling objections and setbacks
 8. `12-tactic-design.md` — Rules for designing bulletproof tactics
-9. `agent-prompts.md` — Copy-paste prompts for agents
-10. `examples/` — Concrete cases when user is stuck
-11. `templates/` — Output formats when generating plans
+9. `12-tactic-design.md` — Rules for designing bulletproof tactics
+10. `13-between-cycles.md` — Break week protocol and next-cycle transition
+11. `14-rag-integration.md` — RAG / vector DB integration guide
+12. `15-cheat-sheet.md` — One-page agent quick-reference
+13. `16-emotional-cycle.md` — The 5 emotional zones of a 12-week cycle
+14. `agent-prompts.md` — Copy-paste prompts for agents
+15. `examples/` — Concrete cases when user is stuck
+16. `templates/` — Output formats when generating plans
 
 ### Key Rules (Never Override)
 
@@ -25,6 +30,18 @@ This knowledge base is designed for **RAG ingestion, system prompt context, or v
 - **Weekly execution score is binary:** (done / not done) per tactic.
 - **Calendar-first:** Tactics must be scheduled.
 - **Never let user add goals mid-cycle.**
+- **Never skip break weeks.** Recovery is part of the system.
+
+### Key Files by Situation
+
+| Situation | Go To |
+|-----------|-------|
+| New user onboarding | [`10-first-conversation.md`](10-first-conversation.md) |
+| User is stuck / objecting | [`11-troubleshooting.md`](11-troubleshooting.md) |
+| User in The Swamp (weeks 5–7) | [`08-execution-protocol.md`](08-execution-protocol.md) + [`examples/example-swamp.md`](examples/example-swamp.md) |
+| Designing tactics | [`12-tactic-design.md`](12-tactic-design.md) |
+| End of cycle / break week | [`13-between-cycles.md`](13-between-cycles.md) |
+| Integrating into RAG system | [`14-rag-integration.md`](14-rag-integration.md) |
 
 ### Agent Persona
 

@@ -29,13 +29,15 @@ This file runs when the agent interacts with a user for the **very first time** 
 
 ### Step 2: Vision Extraction (5–8 min)
 
-Use the Vision Crafting Session prompt in `agent-prompts.md`.
+Use the Vision Crafting Session prompt in [`agent-prompts.md`](agent-prompts.md).
 
 **Output required:** A 3-year vision paragraph written in the user's own words.
 
 ### Step 3: Goal Selection (3–5 min)
 
 Ask: "Looking at your 3-year vision, what is the ONE thing that, if accomplished in the next 12 weeks, would create the most momentum?"
+
+Refer to **Goal Criteria** in [`04-planning.md`](04-planning.md) for quality checks.
 
 Push for clarity:
 - What exactly would be different 12 weeks from now?
@@ -48,7 +50,7 @@ Push for clarity:
 
 For each goal, ask: "What are the 2–5 weekly or daily actions that, if done consistently, guarantee progress toward this goal?"
 
-Use the Tactic Design Rules from `12-tactic-design.md`.
+Use the **Tactic Design Rules** from [`12-tactic-design.md`](12-tactic-design.md).
 
 Check each tactic:
 - Is it specific?
@@ -69,6 +71,8 @@ Ask: "Open your calendar. Let's put each tactic on a specific day at a specific 
 Ask the user to type or say:
 
 > "I commit to executing these tactics for the next 12 weeks. I take ownership of my results. I will act on commitment, not feelings."
+
+For more on Commitment, see [`02-framework.md`](02-framework.md).
 
 Then tell them:
 - Your first Weekly Accountability check-in is [DAY] at [TIME].

@@ -29,9 +29,24 @@ From the long-term list, zoom into what is achievable in 3 years with focused ef
 - Does it trigger emotion when read aloud?
 - If shared with a stranger, would they understand it?
 
-### Step 3: 12-week Connection
+### Step 3: The Four Stages of Belief
+
+A compelling vision evolves through four emotional stages. The user's current stage determines how much the vision can pull them through difficulty:
+
+1. **Impossible** — "I have no idea how to do this."  
+   *Agent response:* "You don't need to know how. The vision mobilizes your brain to start finding paths."
+2. **Possible** — "This could happen if everything goes right."  
+   *Agent response:* "Name one small proof that it is possible."
+3. **Probable** — "If I keep doing the work, this will likely happen."  
+   *Agent response:* "Anchor this belief by tracking lead measures."
+4. **Inevitable** — "This is happening. It is only a matter of time and repetition."  
+   *Agent response:* "Protect the system. Don't add scope just because belief is high."
+
+Most users oscillate between stages 1 and 2 at the start of a cycle. By week 8, a well-executed plan should move them to stage 3. Stage 4 is reached after multiple completed cycles.
+
+### Step 4: 12-week Connection
 For each 12-week goal, explicitly link it back to the vision:  
-"Accomplishing [12-week goal] moves you toward [3-year vision] by..."
+"Accomplishing [12-week goal] moves you toward [3-year vision] because..."
 
 ## Vision Pitfalls to Flag
 

@@ -34,6 +34,10 @@ The 12 Week Year replaces annual goal-setting with 12-week cycles. Each cycle is
 | `10-first-conversation.md` | Onboarding new users |
 | `11-troubleshooting.md` | Handling objections and setbacks |
 | `12-tactic-design.md` | Rules for designing bulletproof tactics |
+| `13-between-cycles.md` | Break week protocol and transition to next cycle |
+| `14-rag-integration.md` | RAG / vector DB integration guide |
+| `15-cheat-sheet.md` | One-page agent quick-reference |
+| `16-emotional-cycle.md` | The 5 emotional zones of a 12-week cycle |
 | `agent-prompts.md` | Copy-paste prompt blocks for agents |
 | `templates/` | Reusable markdown templates for output |
 | `examples/` | Concrete examples for each component |

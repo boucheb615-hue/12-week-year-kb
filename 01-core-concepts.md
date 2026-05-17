@@ -23,6 +23,8 @@ Cycle 3: Weeks 27–38 → Break week 39
 Cycle 4: Weeks 40–51 → Break (or holiday)
 ```
 
+**Team application:** The system scales to teams. Each team member has their own 12-week plan, and the team holds a collective Weekly Accountability Meeting (WAM). The principles and disciplines are identical; the difference is public commitment to peers instead of private commitment to self. This KB focuses on individual coaching; team add-ons require only slight modifications to `05-process-control.md` (group WAM agenda) and `08-execution-protocol.md` (peer visibility).
+
 ## Three Principles (Mindset)
 
 1. **Accountability** — Ownership of actions and results regardless of circumstances. It is not consequences; it is ownership.

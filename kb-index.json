@@ -91,10 +91,22 @@
       "ingestion_priority": 14
     },
     {
+      "path": "13-between-cycles.md",
+      "title": "Between Cycles",
+      "purpose": "Break week protocol and transition guidance from one 12-week cycle to the next",
+      "ingestion_priority": 15
+    },
+    {
+      "path": "14-rag-integration.md",
+      "title": "RAG Integration Guide",
+      "purpose": "Instructions for embedding this KB into any RAG or vector database system",
+      "ingestion_priority": 16
+    },
+    {
       "path": "agent-prompts.md",
       "title": "Agent Prompts",
       "purpose": "Copy-pasteable system prompts and weekly check-in scripts",
-      "ingestion_priority": 15
+      "ingestion_priority": 17
     },
     {
       "path": "templates/12-week-plan-template.md",
