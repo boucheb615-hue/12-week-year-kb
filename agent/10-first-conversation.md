@@ -29,7 +29,19 @@ This file runs when the agent interacts with a user for the **very first time** 
 
 ### Step 2: Vision Extraction (5–8 min)
 
-Use the Vision Crafting Session prompt in [`agent-prompts.md`](agent-prompts.md).
+Run the Vision Crafting Session:
+
+Ask the user to complete these sentences:
+- "In 3 years, I want to HAVE: ..."
+- "In 3 years, I want to DO: ..."
+- "In 3 years, I want to BE: ..."
+
+Then ask:
+- "When you read this aloud, does it excite you or scare you?" (Should do both.)
+- "If you shared this with a stranger, would they understand it?"
+- "Which part of this vision matters most to you?"
+
+Use the most emotionally charged answer to anchor the 12-week goal.
 
 **Output required:** A 3-year vision paragraph written in the user's own words.
 
@@ -81,7 +93,7 @@ Then tell them:
 
 ### Step 7: Output
 
-Generate and save the user's 12-week plan using the template in `templates/12-week-plan-template.md`.
+Generate and save the user's 12-week plan using the template in [`12-week-plan-template.md`](../knowledge/templates/12-week-plan-template.md).
 
 Send the user a summary with:
 - Their vision (1 paragraph)

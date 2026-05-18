@@ -1,77 +1,59 @@
 {
   "name": "12-week-year-kb",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "Plug-and-play AI agent knowledge base for the 12 Week Year execution system — organized by layer: agent (system prompt), rag (semantic recall), knowledge (vector DB)",
   "source": "The 12 Week Year by Brian P. Moran & Michael Lennington",
   "system": "Periodization + 3 Principles + 5 Disciplines",
-  "file_count": 28,
+  "file_count": 25,
   "structure": {
-    "agent": "System prompt — loaded at inference. Persona, rules, protocols, state management.",
-    "rag": "Semantic recall — trigger-based retrieval. Cheat sheets, emotional models, competitive landscape.",
+    "agent": "System prompt — loaded at inference. Single prompt file + situation-specific protocols.",
+    "rag": "Semantic recall — trigger-based retrieval. Emotional models + competitive landscape.",
     "knowledge": "Vector DB — chunked & embedded. Domain content, templates, examples."
   },
   "layers": {
     "agent": {
-      "count": 7,
+      "count": 4,
       "files": [
         {
-          "path": "agent/agent-prompts.md",
-          "title": "Agent Prompts",
-          "purpose": "Copy-pasteable system prompts and weekly check-in scripts",
+          "path": "agent/system-prompt.md",
+          "title": "System Prompt",
+          "purpose": "Self-contained agent prompt: identity, rules, score zones, cycle phases, check-in script, emergency protocol, onboarding, time audit, boundaries, and RAG retrieval triggers",
           "ingestion_priority": 1
-        },
-        {
-          "path": "agent/00-agent-index.md",
-          "title": "Agent Index",
-          "purpose": "Quick reference: ingestion order, rules, persona, escalation triggers, terminology",
-          "ingestion_priority": 2
-        },
-        {
-          "path": "agent/08-execution-protocol.md",
-          "title": "Execution Protocol",
-          "purpose": "Agent operating manual: user journey, weekly check-in script, emergency protocol, tone",
-          "ingestion_priority": 3
         },
         {
           "path": "agent/10-first-conversation.md",
           "title": "First Conversation Protocol",
           "purpose": "Step-by-step onboarding flow for new users",
-          "ingestion_priority": 4
+          "trigger": "First-time user — loaded via semantic recall, not in system prompt"
         },
         {
           "path": "agent/11-troubleshooting.md",
           "title": "Troubleshooting",
           "purpose": "Tested responses to the 10 most common user objections",
-          "ingestion_priority": 5
+          "trigger": "User expresses objection — loaded via semantic recall"
         },
         {
           "path": "agent/13-between-cycles.md",
           "title": "Between Cycles",
           "purpose": "Break week protocol and transition guidance from one 12-week cycle to the next",
-          "ingestion_priority": 6
+          "trigger": "End of cycle / break week phase"
         },
         {
           "path": "agent/17-state-management.md",
           "title": "Agent State Management",
-          "purpose": "Required JSON state structure and update rules for multi-week coaching",
-          "ingestion_priority": 7
+          "purpose": "Required JSON state structure and update rules for multi-week coaching (developer-facing)",
+          "trigger": "Developer configuring agent persistence"
         }
       ]
     },
     "rag": {
-      "count": 5,
+      "count": 4,
       "files": [
         {
           "path": "rag/14-rag-integration.md",
           "title": "RAG Integration Guide",
           "purpose": "Instructions for embedding this KB into any RAG or vector database system",
           "trigger": "Developer configuring the agent's RAG infrastructure"
-        },
-        {
-          "path": "rag/15-cheat-sheet.md",
-          "title": "Cheat Sheet",
-          "purpose": "One-page quick reference for agents before weekly check-ins",
-          "trigger": "Pre-check-in refresh; agent needs quick protocol reminder"
         },
         {
           "path": "rag/16-emotional-cycle.md",
@@ -82,13 +64,13 @@
         {
           "path": "rag/18-emotional-cycle-of-change.md",
           "title": "The Emotional Cycle of Change (ECOC)",
-          "purpose": "Kelley & Conner's 5-stage psychological model of voluntary behavior change (Uninformed Optimism → Valley of Despair → Success), with per-stage agent protocol",
+          "purpose": "Kelley & Conner's 5-stage psychological model (Uninformed Optimism → Valley of Despair → Success), with per-stage agent protocol",
           "trigger": "User enters Valley of Despair or asks 'why is this so hard?'"
         },
         {
           "path": "rag/19-competitive-landscape-achieve.md",
           "title": "Competitive Landscape: Achieve App",
-          "purpose": "Analysis of the official 12 Week Year app (Achieve) — capabilities, pricing tiers, strengths, weaknesses, differentiation strategy for competing agents",
+          "purpose": "Analysis of the official 12 Week Year app (Achieve) — capabilities, pricing, strengths, weaknesses, differentiation strategy",
           "trigger": "User asks about Achieve app or compares agent to official app"
         }
       ]
@@ -154,22 +136,22 @@
         {
           "path": "knowledge/examples/example-fitness.md",
           "title": "Example A: Fitness",
-          "purpose": "Health and fitness 12-week plan with tactics and scorecard"
+          "purpose": "Health and fitness 12-week plan"
         },
         {
           "path": "knowledge/examples/example-business.md",
           "title": "Example B: Business Growth",
-          "purpose": "Solopreneur lead-generation 12-week plan with tactics and scorecard"
+          "purpose": "Solopreneur lead-generation 12-week plan"
         },
         {
           "path": "knowledge/examples/example-book.md",
           "title": "Example C: Product Creation (Book)",
-          "purpose": "Author writing a 30,000-word book in 12 weeks with tactics and scorecard"
+          "purpose": "Write a 30,000-word book in 12 weeks"
         },
         {
           "path": "knowledge/examples/example-swamp.md",
           "title": "Example D: The Swamp (Weeks 5-7)",
-          "purpose": "Annotated example of agent handling a user in The Swamp — normalization, reconnection, diagnosis, recommitment"
+          "purpose": "Annotated example of agent handling a user in The Swamp"
         },
         {
           "path": "knowledge/examples/example-tactic-transformation.md",
